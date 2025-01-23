@@ -7,7 +7,31 @@ const Home = () => {
   const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
   return (
-    <section id='home' className=' w-screen  flex flex-row  justify-between object-cover bg-cover bg-fixed bg-left max-sm:bg-center max-lg:bg-center'>
+    <section id='home' className=' w-screen h-screen flex flex-col z-10 justify-center items-center object-cover bg-cover bg-fixed bg-left max-sm:bg-center max-lg:bg-center'>
+      <marquee direction="right" className='text-7xl -z-0 opacity-40 absolute top-16 ' height="650px"  >
+        <img src={require('../assets/posts/IMG-20240927-WA0029.jpg')} className='h-36 w-36 lg:h-48 lg:w-48' />
+        <marquee direction="down" className='text-7xl  opacity-40 absolute top-16 ' height="650px"  >
+          <img src={require('../assets/posts/IMG-20240927-WA0042.jpg')} className='h-36 w-36 lg:h-48 lg:w-48' />
+        </marquee>
+      </marquee>
+
+
+      <marquee direction="up" className='text-7xl -z-0 opacity-40 absolute top-16 ' height="650px"  >
+        <img src={require('../assets/posts/IMG-20240927-WA0053.jpg')} className='h-36 w-36 lg:h-48 lg:w-48' />
+        <marquee direction="left" className='text-7xl  opacity-40 absolute top-16 ' height="650px"  >
+          <img src={require('../assets/posts/IMG-20240927-WA0060.jpg')} className='h-36 w-36 lg:h-48 lg:w-48' />
+        </marquee>
+      </marquee>
+
+
+
+
+
+
+
+
+
+
       <motion.div
         initial={{ x: -300, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -16,29 +40,38 @@ const Home = () => {
           repeatDelay: 10,
           repeat: Infinity
         }}
-        className=' min-h-screen max-container font-semibold  flex  justify-center items-center gap-1 flex-col  overflow-x-hidden'>
-        <div className=' my-10 font-sans italic   text-7xl max-lg:text-5xl text-white max-w-full w-full'>
-          <div className=" max-w-full px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32  ">
-            <p className="mx-auto  -mt-4 max-w-2xl text-sm font-medium text-white sm:mt-6 sm:text-2xl  ">Welcome to
-              <span className=" ml-1">meetmymotto</span>
-            </p>
-            <h1 className="mx-auto max-w-5xl text-2xl  tracking-tight text-white sm:text-7xl">
-              <span className="inline-block">Your
-                <span className="relative whitespace-nowrap text-blue-600">
-                  <svg aria-hidden="true" viewBox="0 0 418 42" className="absolute mt-1 top-2/3 left-0 h-[0.58em] w-full fill-white/70" preserveAspectRatio="none"><path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path></svg>
-                  <span className="relative mx-2 sm:mx-5 text-white">Social</span></span>
-              </span>
-              <span className="inline-block">Media Store</span>
-            </h1>
-            <p className="mx-auto  max-w-4xl text-sm  text-white font-sans font-normal  mt-3 sm:mt-7">
-              <span className="inline-block">Do What's Best For Your Brand.</span>
-            </p>
-            <div className=" flex flex-col justify-center gap-y-5  sm:flex-row sm:gap-y-0 sm:gap-x-6">
-              <button  className="mt-10  bg-gray-600  inline-flex transition duration-300 hover:bg-gray-800 hover:text-white hover:-translate-y-1 group text-center  items-center justify-center rounded-full py-3 px-16 font-sans font-medium text-sm  text-white animate-fade-in-right" id="headlessui-menu-button-:r4:" aria-haspopup="true" aria-expanded="false" data-headlessui-state="" type="button">
-              My services
-              </button>
+        className=' max-container font-semibold  flex  justify-center items-center gap-1 flex-col  overflow-x-hidden'>
+        <div class="mx-auto max-w-full px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
+          <p class="mx-auto -mt-4 max-w-2xl tracking-tight text-white sm:mt-6 text-sm opacity-90">Welcome to
+            <span class=" ml-1">meetmymotto</span>
+          </p>
+
+          <h1 class="mx-auto max-w-4xl font-display text-4xl mt-3 font-medium tracking-tight text-white sm:text-7xl">
+            <span class="inline-block -z-0">Your
+              <span class="relative whitespace-nowrap text-[#c8e32e]">
+                <svg aria-hidden="true" viewBox="0 0 418 42" class="absolute top-2/3 left-0 h-[0.58em] w-full fill-[#c8e32e]" preserveAspectRatio="none"><path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path></svg>
+                <span className="relative mx-1 lg:mx-3 ">Social Media</span></span>
+            </span>
+            <span class="inline-block">Store</span>
+          </h1>
+
+          <p class="mx-auto mt-6 max-w-2xl text-[16px] tracking-tight opacity-90 text-white sm:mt-6">
+            <span class="inline-block">Bring functionalities of other apps </span>
+            <span class="inline-block ml-1">into your Notion workspaces.</span>
+          </p>
+
+          <div class="mt-12 flex flex-col justify-center gap-y-5 sm:mt-10 sm:flex-row sm:gap-y-0 sm:gap-x-6">
+            <a class="group inline-flex items-center z-0 justify-center rounded-full py-2 px-6 text-sm font-semibold focus:outline-none border border-[#c8e32e] focus-visible:outline-2 focus-visible:outline-offset-2 bg-[#c8e32e] text-black hover:bg-transparent hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900 animate-fade-in-left"
+              href="#">
+              <span class="font-bold">About</span>
+            </a>
+            <div class="relative flex flex-1 flex-col items-stretch sm:flex-none" data-headlessui-state="">
+              <a href='#' class="group inline-flex  items-center justify-center rounded-full py-2 px-6 text-sm border border-[#c8e32e]  focus:outline-none ring-slate-200 text-slate-400 hover:text-slate-700 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300 animate-fade-in-right" id="headlessui-menu-button-:r4:" aria-haspopup="true" aria-expanded="false" data-headlessui-state="" type="button">
+                <span class="">Services</span>
+              </a>
             </div>
           </div>
+
         </div>
       </motion.div>
       <div className="flex items-center justify-center  ">

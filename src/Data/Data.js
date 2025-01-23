@@ -4,7 +4,7 @@ export const navLinks = [
     {label:"About",href:"#about"},
     {label:"Services",href:"#services"},
     {label:"Testimonals",href:"#testimonals"},
-    {label:"Contact",href:"#contact"}
+    {label:"Mail Us",href:"#contact"}
 ]
 
 

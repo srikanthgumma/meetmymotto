@@ -4,7 +4,7 @@ import { services } from '../Data/Data'
 const AboutUs = () => {
   return (
     <section id='about' className=' w-full  bg-transparent max-lg:bg-center max-sm:bg-center'>
-      <div className=" p-4 mb-40">
+      {/* <div className=" p-4 mb-40">
         <div className="max-w-full  px-0 ">
           <div className=" text-center">
             <h2 className="my-2 text-3xl font-bold font-sans text-black sm:text-6xl">How we work?</h2>
@@ -88,8 +88,36 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <div class="lg:flex items-center justify-center ">
+        <div class="lg:w-1/2 p-10">
+          <div class="image object-center text-center">
+            <img src="https://i.imgur.com/WbQnbas.png" />
+          </div>
+        </div>
+        <div class="lg:w-1/3 p-5">
+          <div class="text">
+            <span class="text-gray-300 border-b-2 border-indigo-600 uppercase">About us</span>
 
+            <p class="text-white mt-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, commodi
+              doloremque, fugiat illum magni minus nisi nulla numquam obcaecati placeat quia, repellat tempore
+              voluptatum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, commodi
+              doloremque, fugiat illum magni minus nisi nulla numquam obcaecati placeat quia, repellat tempore
+              voluptatum.
+              <br />
+              <br />
+
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, commodi
+              doloremque, fugiat illum magni minus nisi nulla numquam obcaecati placeat quia, repellat tempore
+              voluptatum.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, commodi
+              doloremque, fugiat illum magni minus nisi nulla numquam obcaecati placeat quia, repellat tempore
+              voluptatum.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }

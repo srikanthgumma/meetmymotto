@@ -10,8 +10,8 @@ const Nav = ({ nav }) => {
 
   return (
     <header >
-      <Disclosure as="nav" className={`w-full ${nav ? "fixed bg-gray-900 duration-300 top-0 left-0 z-30 text-white" : "absolute"}`}>
-        <div className="mx-auto max-w-full p-2  sm:px-6 lg:px-8">
+      <Disclosure as="nav" className={`w-full ${nav ? "fixed bg-[#261865] duration-300 top-0 left-0 z-30 text-white" : "absolute"}`}>
+        <div className="mx-auto max-w-full p-1  sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}
@@ -23,7 +23,7 @@ const Nav = ({ nav }) => {
               </DisclosureButton>
             </div>
             <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-start">
-              <div className="flex shrink-0 items-center text-2xl lg:4xl xl:3xl sm:text-3xl' text-white mr-14 font-sans font-bold">
+              <div className="flex shrink-0 items-center text-xl lg:4xl xl:3xl sm:text-3xl text-white mr-14 font-sans font-bold">
                 3M
               </div>
               <div className="max-md:hidden sm:ml-6 sm:block">
@@ -31,7 +31,7 @@ const Nav = ({ nav }) => {
                   {navLinks.map((item) => (
                     <a
                       key={item.label}
-                    
+
                       href={item.href == '#contact' ? 'mailTo:meetmymotto@gmail.com' : item.href}
                       className='text-gray-300 hover:text-white font-sans  rounded-md  px-3 py-2 text-sm font-bold '
                     >
@@ -49,7 +49,7 @@ const Nav = ({ nav }) => {
                 <MenuButton className="relative  rounded-full lg:hidden xl:hidden max-xl:hidden max-md:flex   max-w-[768]:flex text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">Open user menu</span>
-                  <MdMenu color='black' size={28} />
+                  <MdMenu color='white' size={28} />
                 </MenuButton>
                 <MenuItems
                   transition
@@ -65,20 +65,13 @@ const Nav = ({ nav }) => {
                   </MenuItem>
                   <MenuItem>
                     <a
-                      href='#about'
+                      href='#aboutus'
                       className="block px-4 py-2 text-sm text-white  "
                     >
                       About
                     </a>
                   </MenuItem>
-                  <MenuItem>
-                    <a
-                      href='mailTo:meetmymotto@gmail.com'
-                      className="block px-4 py-2 text-sm text-white  "
-                    >
-                      Contact
-                    </a>
-                  </MenuItem>
+
                   <MenuItem>
                     <a
                       href='#services'
@@ -89,10 +82,10 @@ const Nav = ({ nav }) => {
                   </MenuItem>
                   <MenuItem>
                     <a
-                      href='#gallery'
+                      href='mailTo:meetmymotto@gmail.com'
                       className="block px-4 py-2 text-sm text-white  "
                     >
-                      Gallery
+                      Mail Us
                     </a>
                   </MenuItem>
                 </MenuItems>
