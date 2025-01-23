@@ -24,9 +24,6 @@ const Services = () => {
 
       <div className=' lg:px-8   grid lg:grid-cols-3 gap-4 '>
         <div className=' bg-blue-950 shadow-sm hover:shadow-lg shadow-black h-fit   hover:shadow-black rounded-3xl'>
-          {/* <img className='rounded-t-2xl' src={require('../assets/3.png')} width='100%' height='700' /> */}
-
-
           <div id="default-carousel" class="relative w-full -z-0" data-carousel="slide">
             <div class="relative h-64 overflow-hidden rounded-lg md:h-80">
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
@@ -90,7 +87,6 @@ const Services = () => {
               </span>
             </button>
           </div>
-
           <div >
             <h1 className='text-white font-bold text-2xl text-center leading-7 py-4 px-1'>Design motivational success inspirational quotes for All Social Media</h1>
             <p className='text-gray-400 text-xs px-2'>
@@ -151,8 +147,8 @@ const Services = () => {
                   </div>
                 </div>
                 <div className='pb-8 flex justify-around w-full'>
-                  <a href='https://www.fiverr.com/s/6Ye0oKB' className='hover:bg-[#d2eb44] bg-[#a6bd24] text-sm rounded-xl px-2 py-2 text-black font-bold flex items-center justify-center gap-1 '><TbBrandFiverr size={20} /> Place Order</a>
-                  <a href='/' className='hover:bg-[#d2eb44] bg-[#a6bd24] text-sm rounded-xl px-2 py-2 text-black font-bold  flex items-center justify-center gap-1'><IoLogoWhatsapp size={20} />Chat</a>
+                  <a href='https://www.fiverr.com/s/6Ye0oKB' className='hover:bg-[#d2eb44] bg-[#a6bd24] text-sm rounded-xl flex items-center justify-center gap-1  px-2 py-2 text-black font-bold'><TbBrandFiverr size={20} /> Place Order</a>
+                  <a href='https://wa.me/message/RRMBJAANXTFTL1' className='hover:bg-[#d2eb44] bg-[#a6bd24] flex items-center justify-center gap-1 text-sm rounded-xl px-2 py-2 text-black font-bold'><IoLogoWhatsapp size={20} />Chat</a>
                 </div>
               </div>
             </div>
@@ -160,7 +156,6 @@ const Services = () => {
         </div>
 
         <div className=' bg-blue-950 shadow-sm hover:shadow-lg shadow-black h-fit  hover:shadow-black rounded-3xl'>
-          {/* <img className='rounded-t-2xl' src={require('../assets/3.png')} width='100%' height='700' /> */}
           <div id="default-carousel" class="relative w-full -z-0" data-carousel="slide">
             <div class="relative h-64 overflow-hidden rounded-lg md:h-80">
               <div class="hidden duration-1000 ease-in-out" data-carousel-item>
@@ -311,12 +306,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-
-
-
-
-
 
         <div className=' bg-blue-950 shadow-sm hover:shadow-lg shadow-black h-fit hover:shadow-black rounded-3xl'>
           {/* <img className='rounded-t-2xl' src={require('../assets/3.png')} width='100%' height='700' /> */}
@@ -480,77 +469,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className=' bg-transparent shadow-sm hover:shadow-lg shadow-blue-500   hover:shadow-blue-500 rounded-3xl'>
-          <img className='rounded-t-2xl' src={require('../assets/3.png')} width='100%' height='700' />
-          <div >
-            <h1 className='text-white font-bold text-lg py-4 px-1'>I will design motivational success inspirational quotes and reels for Social Media</h1>
-            <p className='text-white px-2'>
-              If you are looking for the high quality quotes posts then you are in right place! We will provide custom or ready-made motivation and success quotes with a unique and eye-catching design for all social media platforms.
-              If you desire some other type of quotes like love, life, Business, etc just contact us!
-            </p>
-            <div
-              class="relative shadow-xl ring-1 ring-blue-900/5  sm:rounded-lg px-2">
-              <div >
-                <div class=" grid  divide-y divide-neutral-200">
-                  <div class="py-5">
-                    <details class="group">
-                      <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-white'> WHY YOU SHOULD CHOOSE US?</span>
-                        <span class="transition group-open:rotate-180">
-                          <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                            stroke="white" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                          </svg>
-                        </span>
-                      </summary>
-                      <p class="group-open:animate-fadeIn mt-3 text-white w-fit text-sm">
-
-                        * Do the Market Research based on my client's niche before getting into the work.<br />
-
-                        * Each order will be delivered with different styles of quotes.<br />
-
-                        * Unique, eye-catching design and high in quality.<br />
-
-                        * Provide best resolution image format (1080*1080) Suitable for all platforms.<br />
-
-                        * Deliver the content desired by my client in time, no delay in the delivery.<br />
-
-                        * Available for all niches.<br />
-
-                        * Provide Motivational Reels with Logo or username and with hashtags sets and personal growth tips (only for premium package)
-                      </p>
-                      <div class="py-5">
-                        <details class="group">
-                          <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                            <span className='text-white'> Can I get a refund for my subscription?</span>
-                            <span class="transition group-open:rotate-180">
-                              <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                                stroke="white" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                                <path d="M6 9l6 6 6-6"></path>
-                              </svg>
-                            </span>
-                          </summary>
-                          <p class="group-open:animate-fadeIn mt-3 text-white">We offer a 30-day money-back
-                            guarantee for most of its subscription plans. If you are not satisfied with your
-                            subscription within the first 30 days, you can request a full refund. Refunds for
-                            subscriptions that have been active for longer than 30 days may be considered on a
-                            case-by-case basis.
-                          </p>
-                        </details>
-                      </div>
-                    </details>
-                  </div>
-                </div>
-                <div className='pb-4'>
-                  <button className='bg-blue-600 text-base rounded-xl px-2 py-1 text-white font-bold'>Place Order</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section >
   )
