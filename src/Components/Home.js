@@ -62,11 +62,11 @@ const Home = () => {
 
           <div class="mt-12 flex flex-col justify-center gap-y-5 sm:mt-10 sm:flex-row sm:gap-y-0 sm:gap-x-6">
             <a class="group inline-flex items-center z-0 justify-center rounded-full py-2 px-6 text-sm font-semibold focus:outline-none border border-[#c8e32e] focus-visible:outline-2 focus-visible:outline-offset-2 bg-[#c8e32e] text-black hover:bg-transparent hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900 animate-fade-in-left"
-              href="#">
+              href="#aboutus">
               <span class="font-bold">About</span>
             </a>
             <div class="relative flex flex-1 flex-col items-stretch sm:flex-none" data-headlessui-state="">
-              <a href='#' class="group inline-flex  items-center justify-center rounded-full py-2 px-6 text-sm border border-[#c8e32e]  focus:outline-none ring-slate-200 text-slate-400 hover:text-slate-700 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300 animate-fade-in-right" id="headlessui-menu-button-:r4:" aria-haspopup="true" aria-expanded="false" data-headlessui-state="" type="button">
+              <a href='#services' class="group inline-flex  items-center justify-center rounded-full py-2 px-6 text-sm border border-[#c8e32e]  focus:outline-none ring-slate-200 text-slate-400 hover:text-slate-700 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300 animate-fade-in-right" id="headlessui-menu-button-:r4:" aria-haspopup="true" aria-expanded="false" data-headlessui-state="" type="button">
                 <span class="">Services</span>
               </a>
             </div>
