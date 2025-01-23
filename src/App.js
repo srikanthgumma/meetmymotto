@@ -82,7 +82,7 @@ const App = () => {
       <Home />
       <Services />
       <Testimonals />
-      <Footer nav={nav} />
+      <Footer />
     </div>
   )
 }

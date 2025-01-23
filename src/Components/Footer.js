@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa6";
 import { TiSocialPinterestCircular } from "react-icons/ti"
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 
-const Footer = ({ nav }) => {
+const Footer = () => {
   return (
     <section id='aboutus' className=' text-white m-0 w-full max-w-full bg-transparent'>
       {/* {nav ? <a href="#home"><div className='hover:bg-[#ff44ef] w-14 h-14 fixed right-10 bottom-10 text-2xl flex justify-center items-center rounded-full cursor-pointer bg-blue-900 '><TbArrowBigUpFilled /></div></a> : ""} */}
